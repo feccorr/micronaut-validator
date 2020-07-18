@@ -12,6 +12,7 @@ import javax.inject.Singleton;
 public class VatService {
     private static final String SERVER = "http://ec.europa.eu";
     private static final String PATH = "/taxation_customs/vies/services/checkVatService";
+
     private static final String VALID_XML_OPEN_TAG = "<valid>";
     private static final String VALID_XML_CLOSE_TAG = "</valid>";
 
